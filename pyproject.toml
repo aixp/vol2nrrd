@@ -1,0 +1,32 @@
+[project]
+name = "vol2nrrd"
+version = "0.1.0"
+description = "Convert Morita .vol to .nrrd"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Alexander Shiryaev", email = "shiryaev.a.v@gmail.com"}
+]
+license = {text = "MIT"}
+maintainers = [
+  {name = "Alexander Shiryaev", email = "shiryaev.a.v@gmail.com"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "pynrrd"
+]
+
+[project.urls]
+Homepage = "https://github.com/aixp/vol2nrrd"
+Issues = "https://github.com/aixp/vol2nrrd/issues"
+
+[project.scripts]
+vol2nrrd = "vol2nrrd.vol2nrrd:main"
