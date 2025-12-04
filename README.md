@@ -1,10 +1,10 @@
 # vol2nrrd
 
-**Convert Morita `.vol` files to NRRD format**
+**Convert Morita `.vol` files to [NRRD](https://en.wikipedia.org/wiki/Nrrd) format**
 
 ## Overview
 
-`vol2nrrd` is a small Python utility to convert 3D Morita `.vol` medical imaging files into the **NRRD** format.
+`vol2nrrd` is a small Python utility to convert 3D Morita `.vol` medical imaging files into the NRRD format.
 It can optionally rotate volumes, extract XML headers, and generate gzip-compressed NRRD files.
 
 ## Features
